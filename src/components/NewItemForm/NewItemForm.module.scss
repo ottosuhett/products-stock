@@ -1,0 +1,31 @@
+.input{
+    opacity: 0.8;
+}
+.form{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 3fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    justify-items: center;
+    @media(max-width:440px){
+        display: flex;
+        flex-direction: column;
+    }
+}
+.input,.formItem{
+    font-size: 3rem;
+}
+.inputText{
+    text-align: center;
+}
+.formDescription{
+    grid-column: 1/-1;
+    justify-self: stretch;
+}
+.formSubmit{
+    grid-column: 2/4;
+}
+.btnSubmit,.inputText{
+    font-size: 2rem;
+}

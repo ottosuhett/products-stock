@@ -1,0 +1,15 @@
+@import "../../app/mixin.module.scss";
+.footer,.videezy,.footerContainer{
+    text-align: center;
+}
+.videezy,.footerContainer{
+    text-decoration: none;
+    color: rgb(248, 249, 250);
+}
+.footerContainer{
+    @include display-config(flex,column,center,center);
+    min-height: 5vh;
+    font-size: 2rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 36%, rgba(9,9,121,1) 90%);
+}

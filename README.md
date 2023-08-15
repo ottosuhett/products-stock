@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Products Stock Project
 
-## Getting Started
+The Products Stock project is a web application developed using technologies such as Next.js, React, JavaScript, and Sass. It allows users to add products, display relevant information on a dashboard, and manage registered products.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Product Registration
+Users can register products by filling out a form with details like name, category, and quantity. The entered data is stored in localStorage to ensure it persists even after the page is closed.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Dashboard
+The main page of the application includes a dashboard displaying the following information:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Total number of registered product categories.
+- Total number of registered products.
+- Quantity of products with up to 10 units.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Table of Products with Up to 10 Units
+The main page also displays a table containing products with quantities up to 10 units in stock.
 
-## Learn More
+### Items Page
+The items page displays a table with all registered products. Each table item includes two buttons:
 
-To learn more about Next.js, take a look at the following resources:
+1. **Details:** Allows the user to access all the information provided during product registration.
+2. **Delete:** Enables the user to remove a product from the list.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Used Technologies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Next.js
+- React
+- JavaScript
+- Sass
+- react-bootstrap
+- react-icons
+- localStorage: Local storage for data persistence between sessions.
 
-## Deploy on Vercel
+## Automatic Updates
+The project is designed to automatically update the dashboard and tables whenever a new product is registered or an existing product is removed. This provides a seamless and up-to-date user experience.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Running the Project
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone this repository.
+2. Install the dependencies using your preferred package manager (npm or yarn).
+3. Run the project with the command `npm run dev` or `yarn dev`.
+
+I hope this description provides a clear overview of my Products Stock project and its features.
+

@@ -1,0 +1,7 @@
+@import "./mixin.module.scss";
+.homeContainer{
+    padding-top: 2rem;
+    min-height: 85vh;
+    @include display-config(flex, column, center, center)
+}
+

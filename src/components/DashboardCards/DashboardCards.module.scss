@@ -1,0 +1,10 @@
+@import "../../app/mixin.module.scss";
+.CardsContainer{
+    @include display-config(flex,row,center,center);
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-bottom: 5rem;
+    @media(max-width:900px){
+        flex-direction: column;
+    }
+}

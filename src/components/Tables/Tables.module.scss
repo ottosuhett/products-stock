@@ -1,0 +1,36 @@
+.tableContainer,.tableRunningContainer{
+    opacity: 0.75;
+}
+.tableRunningContainer{
+    max-width: 50rem;
+}
+.colTitle,.row{
+    text-align: center; 
+}
+.colTitle,.rowContent,.noItems{
+    font-size: 2rem;
+    text-transform: capitalize;
+    @media(max-width:470px){
+        font-size: 1rem;
+    }
+    @media(max-width:315px){
+        font-size: 0.8rem;
+    }
+}
+.btnContainer{
+    display: flex;
+    justify-content: space-around;
+    @media(max-width:575px){
+        font-size: 1rem;
+    }
+}
+.tableBtn{
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+    @media(max-width:575px){
+        font-size: 0.8rem;
+        padding: 0.5rem 0.5rem;
+        margin:0 0.5rem;
+    }
+}

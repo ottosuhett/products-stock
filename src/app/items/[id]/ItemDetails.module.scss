@@ -1,0 +1,34 @@
+@import "../../mixin.module.scss";
+.itemDetailContainer{ 
+    @include display-config(flex,column,center,center);
+    .backButton{
+        font-size: 2rem;
+        text-decoration: none;
+        color: #ffffff;
+        margin: 2rem 0;
+    }
+}
+.detailsContainer{
+    @include display-config(flex,column,center,center);
+    text-align: center;
+    max-width: 30rem;
+    padding: 2rem;
+    border-radius: 10%;
+    box-shadow: 0.2rem 0.2rem 0.2rem  #e1a0eb;
+    margin-top: 2rem;
+    .detailText,.detailTitle{
+        font-size: 2rem;
+    }
+    .detailText{
+        text-transform: capitalize
+    }
+    .detailTitle{
+        letter-spacing: 0.2rem;
+        &:first-of-type{
+            text-transform: uppercase;
+            letter-spacing: 0.8rem;
+            text-shadow: 0rem 0.3rem 1rem #ffffff;
+        }
+    }
+}
+
