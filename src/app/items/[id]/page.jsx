@@ -19,16 +19,16 @@ export default function ItemDetail({params}){
                 Back
             </Link>
             <div className={`${styles.detailsContainer} container-fluid`}>
-                <p className={`${styles.detailTitle} text-light`}>Product</p>
-                <p className={`${styles.detailText} text-light`}>{product.name}</p>
-                <p className={`${styles.detailTitle} text-light`}>Quantity</p>
-                <p className={`${styles.detailText} text-light`}>{product.quantity}</p>
-                <p className={`${styles.detailTitle} text-light`}>Category</p>
-                <p className={`${styles.detailText} text-light`}>{product.category}</p>
-                <p className={`${styles.detailTitle} text-light`}>Description</p>
-                <p className={`${styles.detailText} text-light`}>{product.description}</p>
-                <p className={`${styles.detailTitle} text-light`}>Price</p>
-                <p className={`${styles.detailText} text-light`}>${product.price}</p>
+                <p className={`${styles.detailTitle}`}>Product</p>
+                <p className={`${styles.detailText}`}>{product.name}</p>
+                <p className={`${styles.detailTitle}`}>Quantity</p>
+                <p className={`${styles.detailText}`}>{product.quantity}</p>
+                <p className={`${styles.detailTitle}`}>Category</p>
+                <p className={`${styles.detailText} `}>{product.category}</p>
+                <p className={`${styles.detailTitle} `}>Description</p>
+                <p className={`${styles.detailText} `}>{product.description}</p>
+                <p className={`${styles.detailTitle} `}>Price</p>
+                <p className={`${styles.detailText} `}>${product.price}</p>
             </div>
         </Container>
     )

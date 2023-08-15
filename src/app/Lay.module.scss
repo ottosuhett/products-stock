@@ -1,7 +1,10 @@
 @import "./mixin.module.scss";
 .mainContainer{
     width: 100%;
-    min-height: 80vh;
+    min-height: 85vh;
     @include display-config(flex,row, center, center);
     background: url("../../public/bg.gif") center center/cover no-repeat,#000000;
+}
+.mainLayContainer{
+    overflow-x: hidden;
 }

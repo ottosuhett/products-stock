@@ -1,6 +1,8 @@
+@import "../../app/mixin.module.scss";
 .tableContainer,.tableRunningContainer{
     opacity: 0.75;
 }
+
 .tableRunningContainer{
     max-width: 50rem;
 }
